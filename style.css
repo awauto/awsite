@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+ 
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav img{
+    padding: 5px;
+}
+
+header{
+    background: #0101039c;
+    position: fixed;
+    border-bottom: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 4.7rem;
+}
+
+header ul{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+header ul li {
+    font-size: 1rem;
+    list-style: none;   
+    transition: border-color .3s ;
+    padding: 14px 6px;
+    transition: all .2s ease-in-out;
+}
+
+header ul li:hover{
+    border-bottom: #d3ad7f solid;
+    transform: scale(1.1);
+}
+
+
+header ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition:  all ease-in-out ;
+    padding: 2.9rem 6px;
+}
+
+header ul li a:hover{
+    transform: scale(1.5);
+    color: #d3ad7f;
+}
+.logo{
+    
+    border: solid black a;
+    border-radius: 5rem;
+}
+
+.search{
+    color: white;
+    font-size: 1.7rem;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+
+.search:hover{
+    color: #d3ad7f;
+}
+  
+
+.cart{
+    cursor: pointer;
+    /* border: solid white; */
+    color: white;
+    font-size: 1.7rem;
+}
+
+.cart:hover{
+    color: #d3ad7f;
+}
+
+.image {
+    background-image: url("coffee website/images-2/home.jpeg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-items: flex-start;
+    padding-inline: 9rem;
+    background-size: cover;
+}
+
+image {
+    border-bottom: solid 13rem #fff;
+    
+}
+
+.image .contet h3{
+    display: flex;
+    align-items: center;
+    padding-inline: 3rem;
+    background-color: #00000077;
+    font-family: 'Open Sans', sans-serif;
+    width: max-content;
+    color: white;
+    text-transform: uppercase;
+    font-size: 7rem;
+    cursor: pointer;
+    border-radius: 0 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.image .contet h3:hover {
+    border-radius: 30px 0;
+}
+
+.contet h3 i span {
+    color: #4b4949;
+    
+}
+
+
+.image .contet h4{
+    padding-top: 3rem;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.home .contet p{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    width: max-content;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #d3ad7f;
+    padding: .5rem 1rem;
+}
+
+.button{
+    width: max-content;
+    font-weight: lighter;
+    color: white;
+    font-size: 1rem;
+    margin-top: 3rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover{
+    word-spacing: 1px;
+    transform: scale(1.1);
+    letter-spacing: 1px;
+    transform: scale(1.1);
+}
+
+.about{
+    padding: 2rem 7%;
+}
+
+.about-us {
+   display: flex;
+   flex: 1 1 45rem;
+}
+
+.about-us img {
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+}
+
+.content { 
+    display: flex;
+    flex: 1 1 45rem;
+    flex-direction: column;
+    color: #fff;
+    padding: 2rem;
+}
+
+.content h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.content p {
+    padding-top: 1.5rem;
+    font-size: 1.2rem
+}
+
+.content button {
+    width: 8rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    background-color: #d3ad7f;
+    border: .5rem solid #d3ad7f;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.content button:hover {
+    transform: scale(1.1);
+}
+
+h1 .QuemSomosBox {
+    color: #010103;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .scrollable-text {
+    height: 250px; /* Altura máxima do container de texto com scroll */
+    overflow-y: auto; /* Habilita o scroll vertical */
+    padding: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+.name {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #eee;
+    padding-bottom: 2.5rem;
+}
+
+.name span {
+    color: #d3ad7f;
+}
+
+.menu{
+    border-bottom: var(--border);
+    padding: 1.4rem;
+    width: 80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+.menu h3 {
+    padding: 2.5rem;
+}
+
+.menu h3 span {
+    color: #d3ad7f;
+}
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid #eee;
+    padding: 5rem;
+}
+
+.menu .box:hover{
+    background-color: #eee;
+    color: #010103;
+}
+
+.menu .box-container .box img {
+    height: 6rem;
+    display: flex;
+    
+}
+
+.menu .box-container .box h3 {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+}
+
+.box {
+    color: inherit;
+}
+
+
+
+.menu .box-container .box .price span {
+    font-size: .9rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    font-size: 1.1rem;
+    background-color: #d3ad7f;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+    color: inherit;
+}
+
+.btn:hover {
+    word-spacing: 1 px;
+    transform: scale(1.1);
+    letter-spacing: 1px;
+}
+
+.contato {
+    padding: 2rem 7%;
+}
+
+.contato h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    padding: 1.4rem;
+}
+
+.contato h4 {
+    color: #eee;
+    display: flex;
+    align-items: center;
+    padding: 1.4rem;
+}
+
+.c-email {
+    cursor: pointer;
+    padding: 14px;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.c-whats {
+    cursor: pointer;
+    padding: 14px;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+.seguro {
+    width: 5rem;
+    margin: 2rem 5rem;
+}
