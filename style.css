@@ -387,6 +387,20 @@ h1 .QuemSomosBox {
     font-size: 3rem;
 }
 
+.fa-facebook {
+    cursor: pointer;
+    padding: 14px;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.fa-instagram {
+    cursor: pointer;
+    padding: 14px;
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
 .whatsapp-link {
     position: fixed;
     width: 60px;
@@ -409,4 +423,32 @@ h1 .QuemSomosBox {
 .seguro {
     width: 5rem;
     margin: 2rem 5rem;
+
+}
+
+.direitos {
+    color: #eee;
+    display: flex;
+    align-items: end;
+    padding: 1.4rem;
+}
+
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.endereco {
+    color: #eee;
+    display: flex;
+    align-items: end;
+    padding: 1.4rem;
 }
