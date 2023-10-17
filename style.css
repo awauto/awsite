@@ -86,6 +86,10 @@ header ul li a:hover{
     font-size: 1.7rem;
 }
 
+.frete {
+    color: white;
+}
+
 .cart:hover{
     color: #d3ad7f;
 }
